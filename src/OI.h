@@ -12,6 +12,8 @@ public:
 private:
 	Joystick * leftJoystick;
 	Joystick * rightJoystick;
+	Button * startIntake;
+	Button * stopIntake;
 	Button * Intake;
 	const int LEFT_JOY_PORT = 0;
 	const int RIGHT_JOY_PORT = 1;
