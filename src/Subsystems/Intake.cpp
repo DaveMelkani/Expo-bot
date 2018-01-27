@@ -6,7 +6,7 @@ Intake::Intake() : Subsystem("Intake"), talonIntaker(new CANTalon(5)) {
 }
 
 Intake::~Intake() {
-	delete talonIntaker;
+delete talonIntaker;
 }
 void Intake::InitDefaultCommand() {
 	SetDefaultCommand(new startIntake());

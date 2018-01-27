@@ -8,13 +8,13 @@ public:
 	~OI();
 	Joystick * getRightJoystick();
 	Joystick * getLeftJoystick();
-
+	Joystick * getWinchJoystick();
 private:
 	Joystick * leftJoystick;
 	Joystick * rightJoystick;
+	Joystick * winchJoystick;
+	Button * ShooterButton;
 	Button * startIntake;
-	Button * stopIntake;
-	Button * Intake;
 	const int LEFT_JOY_PORT = 0;
 	const int RIGHT_JOY_PORT = 1;
 
